@@ -59,5 +59,3 @@ IntelliJ IDEA es un entorno de desarrollo (IDE) que facilita la programación en
 4. Ejecuta el programa presionando el botón verde en IntelliJ.
 
 ---
-
-¡Tu entorno está listo para comenzar a programar!

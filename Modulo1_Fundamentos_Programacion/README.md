@@ -90,13 +90,6 @@ Un `String` es un objeto en Java que representa una secuencia de caracteres.
 ```java
 String saludo = "Hola Mundo";
 ```
-### **Declaración de Variables**
-```java
-int numero = 10; // Declaración e inicialización de un int
-numero = 20;     // Asignación posterior
-
-String nombre = "Juan"; //Declaración e iniciación de un String
-```
 
 #### **Operaciones comunes:**
 - Concatenar cadenas:
@@ -105,6 +98,21 @@ String nombre = "Juan"; //Declaración e iniciación de un String
   String mensaje = "Hola " + nombre;
   System.out.println(mensaje); // Resultado: Hola Juan
   ```
+
+### **Declaración de Variables**
+```java
+int numero = 10; // Declaración e inicialización de un int
+numero = 20;     // Asignación posterior
+
+String nombre = "Juan"; //Declaración e iniciación de un String
+```
+
+### **Constantes:**
+Una constante es una variable que NUNCA podrá ser alterada, es decir, una vez se declare junto a su asignación de dato, NO PODRÁ CAMBIAR y será siempre lo asignado. Esto se realiza con la palabra `final`. Ejemplo:
+```java
+final int numero = 10; // Declaración e inicialización de una constante de tipo int y de valor 10. numero SIEMPRE valdrá 10.
+numero = 20;     // Saltará error en la asignación posterior porque su valor siempre será 10
+```
 
 ### **Ejercicio 3: Datos personales**
 1. Crea variables para almacenar tu nombre, edad y ciudad. Imprímelas en consola y documenta tu código.

@@ -308,6 +308,12 @@ Crea un programa que calcule la suma de todos los elementos en una matriz de ent
    - Declara un array de enteros `{10, 20, 30, 40, 50}`.
    - Pide al usuario un número y busca si está en el array.
    - Si el número está en el array, imprime su índice. Si no, muestra un mensaje indicando que no se encontró.
+   
+4. **Notas de estudiantes:**
+   - Escribe un programa que almacene las notas de 5 estudiantes en un array y calcule la media.
+   
+5. **Valor máximo y mínimo:**
+   - Encuentra el valor más alto y el más bajo en un array de números.
 
 ---
 

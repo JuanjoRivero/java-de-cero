@@ -77,7 +77,7 @@
 3. Navega por las carpetas de cada módulo para acceder al contenido y ejercicios.
 
 ## **Licencia**
-Este curso está protegido bajo la licencia Creative Commons NoComercial-NoDerivativa 4.0 (CC BY-NC-ND 4.0). Puedes usarlo libremente para aprender, pero no puedes modificar ni usar el contenido con fines comerciales.
+Este curso está protegido bajo la licencia Apache 2.0. Puedes usarlo libremente para aprender, modificar y usar el contenido con fines comerciales.
 
 ---
 

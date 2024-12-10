@@ -22,8 +22,9 @@
 - Escribir tu primer programa en Java.
 - Estructura básica del código en Java.
 - Tipos de datos y variables.
+- Conversion explícita e implícita.
 - Operaciones y expresiones.
-- Entradas y salidas de datos.
+- Entradas y salidas de datos con clase Scanner.
 
 ---
 
@@ -36,6 +37,7 @@
 
 ### **Módulo 3: Arrays**
 - Introducción a los arrays.
+- Bucle `foreach`.
 - Recorrido y manipulación de arrays unidimensionales.
 - Arrays multidimensionales.
 
@@ -43,7 +45,7 @@
 
 ### **Módulo 4: Strings**
 - Métodos básicos y avanzados para manejar cadenas.
-- Manipulación dinámica con `StringBuilder`.
+- Manipulación dinámica con `StringBuilder` y `StringBuffer`.
 - Expresiones regulares (RegEx).
 
 ---
@@ -54,16 +56,25 @@
 
 ---
 
-### **Módulo 6: Programación Orientada a Objetos**
-- Clases, objetos, encapsulamiento.
-- Herencia, polimorfismo y abstracción.
-- Interfaces y diseño orientado a objetos.
+### **Módulo 6: Testing con JUnit**
+- Introducción a pruebas unitarias con JUnit.
+- Modificar el pom.xml para introducir JUnit.
+- Desarrollo dirigido por pruebas.
 
 ---
 
-### **Módulo 7: Testing con JUnit**
-- Introducción a pruebas unitarias con JUnit.
-- Desarrollo dirigido por pruebas (TDD).
+### **Módulo 7: Javadoc**
+- Introducción a Javadoc.
+- Sintaxis de Javadoc.
+- Estructura de comentarios.
+- Crear HTML de documentación.
+
+---
+
+### **Módulo 8: Programación Orientada a Objetos**
+- Clases, objetos, encapsulamiento.
+- Herencia, polimorfismo y abstracción.
+- Interfaces y diseño orientado a objetos.
 
 ---
 

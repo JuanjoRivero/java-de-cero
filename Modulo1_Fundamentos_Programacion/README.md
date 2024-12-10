@@ -118,7 +118,96 @@ numero = 20;     // Saltará error en la asignación posterior porque su valor s
 1. Crea variables para almacenar tu nombre, edad y ciudad. Imprímelas en consola y documenta tu código.
 
 ---
-## **4. Convenciones de Nombres**
+
+
+
+## **4. Conversión Explícita e Implícita**
+
+### **¿Qué es una conversión de datos?**
+
+La conversión de datos en Java permite transformar un valor de un tipo a otro. Esto es útil cuando necesitamos que un dato cambie su forma para ser compatible con el contexto donde se utiliza.
+
+### **Tipos de conversión:**
+
+1. **Conversión Implícita:**
+   - Ocurre automáticamente cuando Java convierte un tipo más pequeño (como `int`) a uno más grande (como `double`).
+   - Es segura porque no hay pérdida de datos.
+
+   **Ejemplo:**
+   ```java
+   int numero = 42;
+   double numeroGrande = numero; // Conversión implícita
+   System.out.println("Número grande: " + numeroGrande); // Salida: 42.0
+   ```
+
+2. **Conversión Explícita:**
+   - Ocurre cuando el programador convierte manualmente un tipo más grande (como `double`) a uno más pequeño (como `int`).
+   - Esto puede causar pérdida de datos o precisión y requiere el uso del operador de **cast** (`(tipo)`).
+
+   **Ejemplo:**
+   ```java
+   double numeroGrande = 42.99;
+   int numeroPequeño = (int) numeroGrande; // Conversión explícita
+   System.out.println("Número pequeño: " + numeroPequeño); // Salida: 42
+   ```
+
+### **Conversión con métodos útiles**
+
+Java también proporciona métodos para convertir entre tipos de datos. Por ejemplo:
+
+- **`Integer.getInteger(String key)`**:
+  Este método convierte una clave (habitualmente una propiedad del sistema) en un valor entero si la clave contiene un número válido.
+
+  **Ejemplo:**
+  ```java
+  System.setProperty("miNumero", "50");
+  Integer numero = Integer.getInteger("miNumero");
+  System.out.println("Número obtenido: " + numero); // Salida: 50
+  ```
+
+- **`Double.valueOf(String)`**:
+  Convierte una cadena en un número decimal.
+
+  **Ejemplo:**
+  ```java
+  String textoNumero = "3.14";
+  Double numeroDecimal = Double.valueOf(textoNumero);
+  System.out.println("Número decimal: " + numeroDecimal); // Salida: 3.14
+  ```
+
+- **`String.valueOf(int)`**:
+  Convierte un número en una cadena de texto.
+
+  **Ejemplo:**
+  ```java
+  int numero = 25;
+  String texto = String.valueOf(numero);
+  System.out.println("Texto: " + texto); // Salida: 25
+  ```
+
+### **Diferencias clave:**
+
+| **Aspecto**           | **Conversión Implícita**                         | **Conversión Explícita**                          |
+|-----------------------|-------------------------------------------------|-------------------------------------------------|
+| **Automatización**    | Ocurre automáticamente.                         | Requiere el operador de cast (`(tipo)`).        |
+| **Compatibilidad**    | Convierte un tipo más pequeño a uno más grande.  | Convierte un tipo más grande a uno más pequeño. |
+| **Pérdida de datos**  | No hay pérdida de datos.                         | Puede haber pérdida de datos o precisión.       |
+
+### **Ejercicios**
+
+1. **Conversión Implícita:**
+   - Usa una variable `int` e intenta asignarla a una variable `double`. Imprime ambos valores.
+
+2. **Conversión Explícita:**
+   - Usa una variable `double` e intenta convertirla a `int` usando `(int)`. Imprime ambos valores y analiza la pérdida de precisión.
+
+3. **Conversión con métodos:**
+   - Usa `Integer.getInteger()` para leer una propiedad del sistema y convertirla a un número.
+   - Usa `Double.valueOf()` para convertir una cadena a decimal.
+
+---
+
+## **5. Convenciones de Nombres**
 
 ### **Buenas Prácticas:**
 1. **Clases:** Usar **PascalCase** (Primera letra de cada palabra en mayúscula).
@@ -128,7 +217,7 @@ numero = 20;     // Saltará error en la asignación posterior porque su valor s
 3. **Constantes:** Usar mayúsculas separadas por guiones bajos (`_`).
    - Ejemplo: `PI`, `MAX_VELOCITY`.
 
-## **5. Operaciones y Expresiones**
+## **6. Operaciones y Expresiones**
 
 ### **Operadores Aritméticos**
 - `+` (suma)
@@ -201,7 +290,7 @@ System.out.println(mensaje); // Resultado: Es mayor de edad
 ---
 
 
-## **6. Entradas y Salidas de Datos (Ampliado)**
+## **7. Entradas y Salidas de Datos (Ampliado)**
 
 La clase `Scanner` es una herramienta poderosa en Java que permite leer datos de entrada del usuario desde la consola. Estos datos pueden ser de diferentes tipos: texto, números, etc.
 
@@ -286,7 +375,7 @@ Crea un programa que:
 
 ---
 
-## **7. Ejercicios Finales**
+## **8. Ejercicios Finales**
 
 1. **Programa básico de datos personales:** Almacena por teclado el nombre, apellidos, edad y ciudad del usuario y imprimelos por pantalla en una sola línea.
 

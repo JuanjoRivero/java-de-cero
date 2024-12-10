@@ -76,6 +76,75 @@ Crea un programa que:
 2. Use un bucle `for` para calcular la suma de todos los elementos del array.
 3. Imprima la suma total.
 
+
+## **1.4 Iterar sobre un Array con `foreach`**
+
+### **¿Qué es el bucle `foreach`?**
+El bucle `foreach` es una forma sencilla de recorrer todos los elementos de un array en Java. Permite acceder a los valores directamente sin necesidad de utilizar índices.
+
+---
+
+### **Cómo funciona:**
+1. **Recorre cada elemento del array.**
+2. **Asigna cada elemento a una variable temporal.**
+3. **Permite realizar acciones sobre esa variable temporal.**
+
+### **Sintaxis:**
+```java
+for (tipo variable : array) {
+    // Código para usar cada elemento
+}
+```
+
+- **`tipo`**: El tipo de datos de los elementos del array (por ejemplo, `int`, `String`).
+- **`variable`**: Una variable temporal que representa el valor actual del array.
+- **`array`**: El array que estás recorriendo.
+
+---
+
+### **Ejemplo básico:**
+```java
+int[] numeros = {1, 2, 3, 4, 5};
+
+for (int numero : numeros) {
+    System.out.println("Número: " + numero);
+}
+```
+
+#### **Salida:**
+```
+Número: 1
+Número: 2
+Número: 3
+Número: 4
+Número: 5
+```
+
+---
+
+### **Nota importante:**
+El bucle `foreach` es ideal para:
+- Leer elementos del array.
+- Evitar errores relacionados con índices.
+
+**Pero:** No permite modificar los elementos del array directamente. Si necesitas modificar los valores, usa un bucle `for` clásico.
+
+---
+
+### **Ejercicios prácticos:**
+
+1. **Imprimir elementos de un array:**
+   - Declara un array de números `{10, 20, 30, 40, 50}`.
+   - Usa un bucle `foreach` para imprimir cada número.
+
+2. **Suma de elementos:**
+   - Declara un array de enteros `{5, 10, 15}`.
+   - Usa un bucle `foreach` para sumar todos los elementos y mostrar la suma total.
+
+3. **Imprimir cadenas de texto:**
+   - Declara un array de cadenas `{"hola", "mundo", "java"}`.
+   - Usa un bucle `foreach` para imprimir cada palabra.
+
 ---
 
 ## **2. Métodos más utilizados para trabajar con Arrays**

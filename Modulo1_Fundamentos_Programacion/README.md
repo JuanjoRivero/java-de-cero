@@ -195,13 +195,13 @@ Java también proporciona métodos para convertir entre tipos de datos. Por ejem
 
 ### **Ejercicios**
 
-1. **Conversión Implícita:**
+4. **Conversión Implícita:**
    - Usa una variable `int` e intenta asignarla a una variable `double`. Imprime ambos valores.
 
-2. **Conversión Explícita:**
+5. **Conversión Explícita:**
    - Usa una variable `double` e intenta convertirla a `int` usando `(int)`. Imprime ambos valores y analiza la pérdida de precisión.
 
-3. **Conversión con métodos:**
+6. **Conversión con métodos:**
    - Usa `Integer.getInteger()` para leer una propiedad del sistema y convertirla a un número.
    - Usa `Double.valueOf()` para convertir una cadena a decimal.
 
@@ -281,7 +281,7 @@ String mensaje = (edad >= 18) ? "Es mayor de edad" : "Es menor de edad";
 System.out.println(mensaje); // Resultado: Es mayor de edad
 ```
 
-### **Ejercicio 4: Operaciones matemáticas**
+### **Ejercicio 7: Operaciones matemáticas**
 1. Crea un programa que realice las siguientes operaciones:
    - Suma de dos números enteros.
    - Compruebe si la suma es mayor que 20 y si es asi almacene en un **String** <"es mayor a 20">, sino que alamcene <"es menor a 20">.

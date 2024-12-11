@@ -285,7 +285,8 @@ System.out.println(mensaje); // Resultado: Es mayor de edad
 1. Crea un programa que realice las siguientes operaciones:
    - Suma de dos números enteros.
    - Compruebe si la suma es mayor que 20 y si es asi almacene en un **String** <"es mayor a 20">, sino que alamcene <"es menor a 20">.
-   - Imprima por pantalla el resultado solo si es impar.
+   - Comprueba si el numero es impar y almacenalo en un **boolean** siendo **True** impar y **False** par.
+   - Imprima la suma, la comprobacion y si es par o no.
 
 ---
 
@@ -366,7 +367,7 @@ public class Main {
    scanner.nextLine(); // Limpia el salto de línea pendiente
    ```
 
-### **4. Ejercicio 5: Programa interactivo**
+### **4. Ejercicio 8: Programa interactivo**
 
 **Descripción:**
 Crea un programa que:
@@ -377,13 +378,13 @@ Crea un programa que:
 
 ## **8. Ejercicios Finales**
 
-1. **Programa básico de datos personales:** Almacena por teclado el nombre, apellidos, edad y ciudad del usuario y imprimelos por pantalla en una sola línea.
+9. **Programa básico de datos personales:** Almacena por teclado el nombre, apellidos, edad y ciudad del usuario y imprimelos por pantalla en una sola línea.
 
-2. **Calcula el área de:**
+10. **Calcula el área de:**
    - Triángulo: Pide por teclado la base y la altura.
    - Círculo: Pide por teclado el radio.
-3. **Conversión de unidades:**
+11. **Conversión de unidades:**
    - Convertir grados Celsius a Fahrenheit. (si no sabes como funciona la conversion, busca en Google)
-4. **Evaluaciones y tablas:**
+12. **Evaluaciones y tablas:**
    - Determina si un número es par o impar.
    - Muestra la tabla de multiplicar de un número.

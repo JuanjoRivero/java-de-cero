@@ -155,14 +155,14 @@ La conversión de datos en Java permite transformar un valor de un tipo a otro. 
 
 Java también proporciona métodos para convertir entre tipos de datos. Por ejemplo:
 
-- **`Integer.getInteger(String key)`**:
+- **`Integer.parseInt(String)`**:
   Este método convierte una clave (habitualmente una propiedad del sistema) en un valor entero si la clave contiene un número válido.
 
   **Ejemplo:**
   ```java
-  System.setProperty("miNumero", "50");
-  Integer numero = Integer.getInteger("miNumero");
-  System.out.println("Número obtenido: " + numero); // Salida: 50
+  String edad = "18";
+  int numero = Integer.parseInt(edad);
+  System.out.println(numero + 10); // Salida: 28
   ```
 
 - **`Double.valueOf(String)`**:
